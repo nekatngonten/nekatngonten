@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="icon.svg" width="112" alt="Bang Motion icon">
+<img src="icon.svg" width="112" alt="Motion By Nekatngonten icon">
 
-# Bang Motion
+# Motion By Nekatngonten
 
 **An agent skill that turns your AI coding agent into a motion designer.**<br>
 Openers, promos, product demos, kinetic typography, and explainers — built as a single `index.html` that plays like video, not like slides.
@@ -12,7 +12,7 @@ Openers, promos, product demos, kinetic typography, and explainers — built as 
 [![Agent Skills](https://img.shields.io/badge/format-Agent%20Skills-1c2a4a?style=flat-square)](#install)
 [![Works with](https://img.shields.io/badge/works%20with-Claude%20Code%20%C2%B7%20Codex%20%C2%B7%20Gemini%20CLI%20%C2%B7%20Cursor-7a5af5?style=flat-square)](#install)
 
-<img src="docs/gallery/hero.jpg" alt="A grid of styles Bang Motion can build: grainy gradient opener, SaaS product tour, flat pop promo with photos, visual journalism explainer, continuous action explainer, cartoon collage explainer" width="100%">
+<img src="docs/gallery/hero.jpg" alt="A grid of styles Motion By Nekatngonten can build: grainy gradient opener, SaaS product tour, flat pop promo with photos, visual journalism explainer, continuous action explainer, cartoon collage explainer" width="100%">
 
 [What you can make](#what-you-can-make) · [Style gallery](#style-gallery) · [Workflow](#recommended-workflow) · [Example prompts](#example-prompts) · [Install](#install) · [FAQ](#faq)
 
@@ -22,7 +22,7 @@ Openers, promos, product demos, kinetic typography, and explainers — built as 
 
 ## Why
 
-Ask an AI agent for "a video" and you usually get **slides**: one section per idea, a title, a photo, a fade between them. Bang Motion encodes what a working motion designer insists on — one continuous world, a camera that actually moves, a subject that persists, text that lives inside the scene — as **rules an agent can check in its own code**, plus starters that make the right architecture the easy path.
+Ask an AI agent for "a video" and you usually get **slides**: one section per idea, a title, a photo, a fade between them. Motion By Nekatngonten encodes what a working motion designer insists on — one continuous world, a camera that actually moves, a subject that persists, text that lives inside the scene — as **rules an agent can check in its own code**, plus starters that make the right architecture the easy path.
 
 It also stops every project from looking the same. The look is **derived from your brand** through a required style brief, the structure is **chosen from a menu of concepts**, and nothing is inherited from the starter or copied from a reference.
 
@@ -190,29 +190,29 @@ A cartoon explainer on why volcanoes erupt, for kids, 9:16, I will send a voice-
 
 ## Install
 
-Bang Motion follows the open **Agent Skills** layout: a folder with `SKILL.md` (frontmatter + instructions), `references/`, `assets/`, `scripts/`. It also ships as a Claude Code **plugin**.
+Motion By Nekatngonten follows the open **Agent Skills** layout: a folder with `SKILL.md` (frontmatter + instructions), `references/`, `assets/`, `scripts/`. It also ships as a Claude Code **plugin**.
 
 ### As a plugin (Claude Code)
 
 ```
-/plugin marketplace add bangtutorial/bang-motion
+/plugin marketplace add nekatngonten/nekatngonten
 ```
 ```
-/plugin install bang-motion@bang-motion
+/plugin install nekat-motion@nekat-motion
 ```
 
-Update later with `/plugin marketplace update bang-motion`.
+Update later with `/plugin marketplace update nekat-motion`.
 
 ### Manual (any agent)
 
 ```bash
-git clone https://github.com/bangtutorial/bang-motion
+git clone https://github.com/nekatngonten/nekatngonten nekat-motion
 ```
 
 | Agent | Where it goes |
 |---|---|
-| Claude Code | `~/.claude/skills/bang-motion` (Windows: `C:\Users\<you>\.claude\skills\bang-motion`) |
-| Codex CLI | your Codex skills folder, or add to `AGENTS.md`: *"For motion graphics / explainers, read and follow `bang-motion/SKILL.md`."* |
+| Claude Code | `~/.claude/skills/nekat-motion` (Windows: `C:\Users\<you>\.claude\skills\nekat-motion`) |
+| Codex CLI | your Codex skills folder, or add to `AGENTS.md`: *"For motion graphics / explainers, read and follow `nekat-motion/SKILL.md`."* |
 | Gemini CLI · Cursor · others | copy into the project and reference `SKILL.md` from `GEMINI.md`, `.cursor/rules`, or the system prompt |
 | Plain chat (no agent) | paste `SKILL.md` + the relevant file in `references/` as instructions; attach a starter from `assets/` |
 
